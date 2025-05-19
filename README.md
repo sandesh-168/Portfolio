@@ -101,8 +101,9 @@ You can easily customize this portfolio by:
 - Instagram: [instagram.com/sandesh.168](https://www.instagram.com/sandesh.168/)
 
 OUTPUT:
-![Image](https://github.com/user-attachments/assets/8e364098-8691-46b2-83a0-9a9269ac7a3d)
+
 ![Image](https://github.com/user-attachments/assets/d089f597-21f3-4add-af7a-bf1b03d36a64)
 ![Image](https://github.com/user-attachments/assets/c6742f0c-cb08-4832-92be-05578a112e28)
 ![Image](https://github.com/user-attachments/assets/d33536d4-855b-4ac2-8fca-23a92b036bdc)
 ![Image](https://github.com/user-attachments/assets/28fb790a-a7eb-4d1a-9c8d-a18192db5126)
+![Image](https://github.com/user-attachments/assets/8e364098-8691-46b2-83a0-9a9269ac7a3d)
