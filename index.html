@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span>Portfolio</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </label>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-background"></div>
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Sandesh Halmadge</span></h1>
+                <h2>Frontend Developer</h2>
+                <p>Creating beautiful and functional websites</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+                <div class="scroll-down">
+                    <a href="#about">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-bg-dots"></div>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="PHOTO.jpg" alt="Sandesh Halmadge" class="profile-photo">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-user"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="about-text-content">
+                        <h3><i class="fas fa-user-circle"></i> Who I Am</h3>
+                        <p>Hello! I'm a passionate web developer with a focus on creating responsive and user-friendly websites. With a background in design and programming, I bring a unique perspective to every project.</p>
+                        
+                        <h3><i class="fas fa-laptop-code"></i> What I Do</h3>
+                        <p>I specialize in front-end development using HTML, CSS, and JavaScript. I also have experience with various frameworks and content management systems.</p>
+                        
+                        <div class="about-stats">
+                            <div class="stat">
+                                <i class="fas fa-check-circle"></i>
+                                <div class="stat-info">
+                                    <span>6</span>
+                                    <p>Months Experience</p>
+                                </div>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-project-diagram"></i>
+                                <div class="stat-info">
+                                    <span>5</span>
+                                    <p>Projects</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn download-btn"><i class="fas fa-download"></i> Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-bg-wave"></div>
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-items">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="section-bg-gradient"></div>
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Lib.png" alt="Library Project">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <a href="#" class="project-overlay-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://github.com/sandesh-168/LibraryManagement" class="project-overlay-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Library Management System</h3>
+                        <p>A modern library management system with book search functionality and user authentication.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>MongoDB</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sandesh-168/LibraryManagement" class="project-link"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="https://github.com/sandesh-168/LibraryManagement" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Quiz.png" alt="JavaScript Quiz">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <a href="#" class="project-overlay-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-overlay-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>JavaScript Quiz App</h3>
+                        <p>An interactive quiz application to test and improve your JavaScript knowledge with instant feedback and score tracking.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sandesh-168/Interactive-Quiz-Application" class="project-link"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="https://github.com/sandesh-168/Interactive-Quiz-Application" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="ELearningPlatform.png" alt="E-Learning Platform">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <a href="#" class="project-overlay-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-overlay-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Learning Platform</h3>
+                        <p>A comprehensive online learning platform offering courses, quizzes, and progress tracking for students and educators.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sandesh-168/E-LEARNING-PLATFORM-UI" class="project-link"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="https://github.com/sandesh-168/E-LEARNING-PLATFORM-UI" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Real time chat.png" alt="Real Time Chat App">
+                        <div class="project-overlay">
+                            <div class="project-overlay-content">
+                                <a href="#" class="project-overlay-link"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="project-overlay-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Real-Time Chat Application</h3>
+                        <p>A real-time chat app enabling instant messaging, group chats, and user presence with a modern UI.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>React.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sandesh-168/REAL-TIME-CHAT-APPLICATION" class="project-link"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="https://github.com/sandesh-168/REAL-TIME-CHAT-APPLICATION" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-bg-shapes"></div>
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>sandeshh2710@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 7666772730</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Latur, Maharashtra, India</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/sandesh-168" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/sandesh-halmadge-14610b198/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/sandesh.168/" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>Portfolio</span>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p>&copy; 2025 Sandesh Halmadge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+</html> 
